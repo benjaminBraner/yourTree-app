@@ -1,0 +1,156 @@
+.LoginScreen {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: var(--background-grey);
+     min-height: 91vh;
+}
+
+.LoginScreen .form__container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     padding: 10px 0;
+     margin-bottom: 10px;
+     padding-right: 0;
+     padding-left: 0;
+
+}
+
+.LoginScreen .hola {
+     background: var(--my-white);
+     display: flex;
+     border: 1px solid rgb(209, 209, 209);
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+}
+
+.LoginScreen #form__logo {
+     margin: 22px 40px 12px 40px;
+     font-size: 48px;
+}
+
+.LoginScreen .form {
+     display: flex;
+     flex-direction: column;
+     margin-top: 24px;
+}
+
+.LoginScreen .form__item {
+     margin-bottom: 10px;
+     padding: 10px;
+     width: 258px;
+     margin: 3px 40px;
+     outline: none;
+}
+
+.LoginScreen form input {
+     border: 1px solid rgb(209, 209, 209);
+     background-color: var(--background-grey);
+}
+
+.LoginScreen form input:focus {
+     border: 1px solid rgb(148, 146, 146);
+
+}
+
+.LoginScreen .form__button {
+     background-color: var(--green-btn);
+     border: none;
+     color: var(--my-white);
+     margin-top: 10px;
+}
+
+.LoginScreen .form__button:hover {
+     background: var(--green-btn-hover);
+}
+
+.LoginScreen .form__option {
+     color: #5a5a5a;
+     margin: 0px 40px 17px;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+
+.LoginScreen .form__option::before {
+     position: absolute;
+     content: "";
+     width: 37%;
+     height: 2px;
+     background: #b6b6b6;
+     left: 0;
+     top: 50%;
+}
+
+.LoginScreen .form__option::after {
+     position: absolute;
+     content: "";
+     width: 37%;
+     height: 2px;
+     background: #b6b6b6;
+     right: 0;
+     top: 50%;
+}
+
+.LoginScreen .google-login {
+     display: flex;
+     padding: 2px;
+     justify-content: center;
+     color: white;
+     font-weight: 600;
+     background-color: var(--violet-link);
+     cursor: pointer;
+}
+
+.LoginScreen .google-icon-wrapper {
+     background-color: white;
+     border-radius: 4px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: 0 5px;
+     width: 21px;
+     height: 21px;
+}
+
+.LoginScreen .google-icon {
+     width: 17px;
+}
+
+.LoginScreen .passwrd-forgot {
+     font-size: 14px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 8px;
+     margin-bottom: 10px;
+     padding-bottom: 10px;
+     /* padding-top: 0; */
+     text-decoration: none;
+     color: black;
+}
+
+.LoginScreen .form__container p {
+     display: flex;
+     justify-content: center;
+     margin-top: 10px;
+     border: 1px solid rgb(209, 209, 209);
+     width: 100%;
+     height: 100%;
+     padding: 20px;
+     background: var(--my-white);
+     color: var(--black);
+     text-align: center;
+}
+
+.LoginScreen .signup__form {
+     text-decoration: none;
+     color: var(--violet-link);
+     font-weight: 600;
+     margin: 0 5px;
+}

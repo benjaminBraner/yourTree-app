@@ -1,0 +1,38 @@
+.plants-container {
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-auto-rows: 350px;
+   padding: 27px;
+   gap: 26px;
+}
+
+
+@media screen and (max-width: 960px) {
+   .plants-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 350px;
+      padding: 27px;
+      gap: 26px;
+   }
+}
+
+@media screen and (max-width: 768px) {
+   .plants-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 350px;
+      padding: 27px;
+      gap: 26px;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .plants-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 350px;
+      padding: 27px;
+      gap: 26px;
+   }
+}

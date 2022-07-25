@@ -1,0 +1,93 @@
+.SignUpScreen {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--background-grey);
+     min-height: 91vh;
+}
+
+.SignUpScreen .form__container {
+     background-color: var(--background-grey);
+     display: flex;
+     justify-self: center;
+     align-items: center;
+     flex-direction: column;
+}
+
+.SignUpScreen .form__signup {
+     background: var(--my-white);
+     display: flex;
+     flex-direction: column;
+     justify-self: center;
+     align-items: center;
+     padding: 10px 0;
+     margin-bottom: 10px;
+     border: 1px solid rgb(209, 209, 209);
+}
+
+
+.SignUpScreen #form__logo {
+     font-size: 48px;
+     margin: 22px 0 12px 0;
+}
+
+.SignUpScreen .form {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px
+}
+
+.SignUpScreen .form__item {
+     margin-bottom: 10px;
+     padding: 10px;
+     width: 258px;
+     margin: 3px 40px;
+     outline: none;
+}
+
+.SignUpScreen input {
+     border: 1px solid rgb(209, 209, 209);
+     background-color: var(--background-grey);
+}
+
+.SignUpScreen .form input:focus {
+     border: 1px solid rgb(148, 146, 146);
+}
+
+.SignUpScreen .form button {
+     margin-top: 10px;
+     background-color: var(--green-btn);
+     border: none;
+     color: var(--my-white);
+}
+
+.SignUpScreen .form button:hover {
+     background: var(--green-btn-hover);
+}
+
+.SignUpScreen .form p {
+     font-size: 13px;
+     text-align: center;
+     color: var(--black);
+}
+
+.SignUpScreen .have-acc {
+     color: var(--black);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     width: 100%;
+     height: 100%;
+     background: var(--my-white);
+     border: 1px solid rgb(209, 209, 209);
+}
+
+.SignUpScreen .have-acc a {
+     text-decoration: none;
+     color: var(--violet-link);
+     font-weight: 600;
+     margin: 0 5px;
+}

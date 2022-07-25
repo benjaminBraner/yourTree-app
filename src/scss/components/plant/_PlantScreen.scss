@@ -1,0 +1,108 @@
+.PlantScreen {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 90vh;
+   background-color: var(--background-grey);
+}
+
+.PlantScreen .plant-container {
+   background-color: white;
+   border-radius: 20px;
+   display: grid;
+   grid-template-columns: 1fr 1.4fr;
+   align-items: center;
+   max-width: 1050px;
+   max-height: 500px;
+}
+
+.PlantScreen .plant-container .plant-img-container {
+   line-height: 2;
+}
+
+.PlantScreen .plant-container img {
+   height: 500px;
+   object-fit: cover;
+   width: 100%;
+   border-top-left-radius: 20px;
+   border-bottom-left-radius: 20px;
+   position: relative;
+}
+
+@media screen and (max-width: 782px) {
+   .PlantScreen .plant-container .plant-img-container {
+      line-height: 7;
+   }
+}
+
+@media screen and (max-width: 888px) {
+   .PlantScreen .plant-container .plant-img-container {
+      line-height: 4;
+   }
+}
+
+
+.PlantScreen .plant-info {
+   height: 100%;
+   padding: 56px 40px;
+}
+
+.PlantScreen .plant-info h2 {
+   font-size: 30px;
+   letter-spacing: 2px;
+}
+
+.PlantScreen .plant-info .plant__care-level {
+   font-size: 18px;
+   color: rgb(180, 178, 178);
+   margin-bottom: 18px;
+}
+
+.PlantScreen .plant-info h3 {
+   font-size: 40px;
+}
+
+.PlantScreen .plant__cares {
+   margin: 50px 0;
+   color: rgb(180, 178, 178);
+}
+
+.PlantScreen .plant-info button {
+   padding: 16px 55px;
+   background-color: rgb(57, 212, 161);
+   border: none;
+   color: var(--my-white);
+   border-radius: 6px;
+   font-size: 20px;
+   cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+   .PlantScreen {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--background-grey);
+      padding: 20px;
+      height: min-content;
+   }
+
+   .PlantScreen .plant-container {
+      max-height: none;
+      grid-template-rows: 1fr max-content;
+      grid-template-columns: none;
+      margin: 0;
+   }
+
+   .PlantScreen .plant-container img {
+      border-top-right-radius: 20px;
+      border-bottom-left-radius: 0;
+   }
+}
+
+@media screen and (max-width: 480px) {
+   .PlantScreen {
+      padding: 9px;
+      height: min-content;
+   }
+}
