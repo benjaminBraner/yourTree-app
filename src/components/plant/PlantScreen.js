@@ -3,6 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { getPlantById } from '../../helpers/getPlantById';
 import '../../scss/components/plant/_PlantScreen.scss'
 
+const plantImages = require.context('../../plants' , true)
 
 export const PlantScreen = ({isPublic}) => {
 
@@ -13,7 +14,7 @@ export const PlantScreen = ({isPublic}) => {
 
      const plant = getPlantById( plantId );
 
-     const imagePath = `/assets/${ plant.id }.jpg`;
+     const imagePath = plantImages(`./${plantId}.jpg`).default;
 
      const clickBtn = () => (isPublic) && navigate('/public/signup');
 

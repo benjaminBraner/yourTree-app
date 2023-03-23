@@ -2,6 +2,7 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 import { PlantCard } from '../plant/PlantCard'
 import '../../scss/components/public/_HomeScreen.scss'
+import homeScreenImg from '../../plants/undraw_environment_iaus.png'
 
 export const HomeScreen = () => {
 
@@ -28,7 +29,7 @@ export const HomeScreen = () => {
                          </div>
 
                          <div className='main__img-container'>
-                              <img src="/assets/undraw_environment_iaus.png" id='main__img' alt='plant'/>
+                              <img src={homeScreenImg} id='main__img' alt='plant'/>
                          </div>
 
                     </div>

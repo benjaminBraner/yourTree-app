@@ -1,5 +1,6 @@
 import { NavLink } from 'react-router-dom'
 import '../scss/ui/_PublicNavbar.scss'
+import menuIcon from '../images/menu-icon.svg'
 
 export const PublicNavbar = () => {
 
@@ -20,7 +21,7 @@ export const PublicNavbar = () => {
                          <a href='/' className='navbar__logo'><i className='fab fa-pagelines'></i>yoürTree</a>
 
                          <div className='menu-icon' onClick={ clickMenu }>
-                              <i className='gg-menu'></i>
+                              <img src={menuIcon} alt='menu-icon'/>
                          </div>
 
                          <div className='close-menu-icon active' onClick={ clickMenu }>

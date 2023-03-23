@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/plants-app/build/static/css/main.b676296e.chunk.css",
+    "main.js": "/plants-app/build/static/js/main.855b586b.chunk.js",
+    "main.js.map": "/plants-app/build/static/js/main.855b586b.chunk.js.map",
+    "runtime-main.js": "/plants-app/build/static/js/runtime-main.55032ec7.js",
+    "runtime-main.js.map": "/plants-app/build/static/js/runtime-main.55032ec7.js.map",
+    "static/js/2.e39660b4.chunk.js": "/plants-app/build/static/js/2.e39660b4.chunk.js",
+    "static/js/2.e39660b4.chunk.js.map": "/plants-app/build/static/js/2.e39660b4.chunk.js.map",
+    "index.html": "/plants-app/build/index.html",
+    "static/css/main.b676296e.chunk.css.map": "/plants-app/build/static/css/main.b676296e.chunk.css.map",
+    "static/js/2.e39660b4.chunk.js.LICENSE.txt": "/plants-app/build/static/js/2.e39660b4.chunk.js.LICENSE.txt",
+    "static/media/air-plant.jpg": "/plants-app/build/static/media/air-plant.0c1a5367.jpg",
+    "static/media/aloe-plant.jpg": "/plants-app/build/static/media/aloe-plant.24a70ca0.jpg",
+    "static/media/anthurium.jpg": "/plants-app/build/static/media/anthurium.e7b25e2d.jpg",
+    "static/media/asparagus-fern.jpg": "/plants-app/build/static/media/asparagus-fern.5f5be1da.jpg",
+    "static/media/begonia.jpg": "/plants-app/build/static/media/begonia.1f570aeb.jpg",
+    "static/media/bird-of-paradise.jpg": "/plants-app/build/static/media/bird-of-paradise.81afc498.jpg",
+    "static/media/dragon-tree.jpg": "/plants-app/build/static/media/dragon-tree.601f4086.jpg",
+    "static/media/fiddle.jpg": "/plants-app/build/static/media/fiddle.09bb82f9.jpg",
+    "static/media/jade-plant.jpg": "/plants-app/build/static/media/jade-plant.34396d2d.jpg",
+    "static/media/juniper-bonsai.jpg": "/plants-app/build/static/media/juniper-bonsai.80a6edc1.jpg",
+    "static/media/kalanchoe.jpg": "/plants-app/build/static/media/kalanchoe.fa2f0105.jpg",
+    "static/media/menu-icon.df1ee300.svg": "/plants-app/build/static/media/menu-icon.df1ee300.svg",
+    "static/media/peace-lily.jpg": "/plants-app/build/static/media/peace-lily.97a93a76.jpg",
+    "static/media/pilea.jpg": "/plants-app/build/static/media/pilea.666ac0ab.jpg",
+    "static/media/rubber-plants.jpg": "/plants-app/build/static/media/rubber-plants.1410eb0a.jpg",
+    "static/media/snake-plant.jpg": "/plants-app/build/static/media/snake-plant.abd18e86.jpg",
+    "static/media/split-leaf-philodendron.jpg": "/plants-app/build/static/media/split-leaf-philodendron.d63a5900.jpg",
+    "static/media/string-of-pearls.jpg": "/plants-app/build/static/media/string-of-pearls.1c115490.jpg",
+    "static/media/succulents.jpg": "/plants-app/build/static/media/succulents.dbfccb99.jpg",
+    "static/media/sweetheart-plant.jpg": "/plants-app/build/static/media/sweetheart-plant.8f2ffdc0.jpg",
+    "static/media/undraw_environment_iaus.png": "/plants-app/build/static/media/undraw_environment_iaus.3422144b.png",
+    "static/media/zz-plant.jpg": "/plants-app/build/static/media/zz-plant.390383f6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.55032ec7.js",
+    "static/js/2.e39660b4.chunk.js",
+    "static/css/main.b676296e.chunk.css",
+    "static/js/main.855b586b.chunk.js"
+  ]
+}
