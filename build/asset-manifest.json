@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/plants-app/build/static/css/main.b676296e.chunk.css",
-    "main.js": "/plants-app/build/static/js/main.855b586b.chunk.js",
-    "main.js.map": "/plants-app/build/static/js/main.855b586b.chunk.js.map",
+    "main.css": "/plants-app/build/static/css/main.cc1ab556.chunk.css",
+    "main.js": "/plants-app/build/static/js/main.2b73493d.chunk.js",
+    "main.js.map": "/plants-app/build/static/js/main.2b73493d.chunk.js.map",
     "runtime-main.js": "/plants-app/build/static/js/runtime-main.55032ec7.js",
     "runtime-main.js.map": "/plants-app/build/static/js/runtime-main.55032ec7.js.map",
     "static/js/2.e39660b4.chunk.js": "/plants-app/build/static/js/2.e39660b4.chunk.js",
     "static/js/2.e39660b4.chunk.js.map": "/plants-app/build/static/js/2.e39660b4.chunk.js.map",
     "index.html": "/plants-app/build/index.html",
-    "static/css/main.b676296e.chunk.css.map": "/plants-app/build/static/css/main.b676296e.chunk.css.map",
+    "static/css/main.cc1ab556.chunk.css.map": "/plants-app/build/static/css/main.cc1ab556.chunk.css.map",
     "static/js/2.e39660b4.chunk.js.LICENSE.txt": "/plants-app/build/static/js/2.e39660b4.chunk.js.LICENSE.txt",
     "static/media/air-plant.jpg": "/plants-app/build/static/media/air-plant.0c1a5367.jpg",
     "static/media/aloe-plant.jpg": "/plants-app/build/static/media/aloe-plant.24a70ca0.jpg",
@@ -36,7 +36,7 @@
   "entrypoints": [
     "static/js/runtime-main.55032ec7.js",
     "static/js/2.e39660b4.chunk.js",
-    "static/css/main.b676296e.chunk.css",
-    "static/js/main.855b586b.chunk.js"
+    "static/css/main.cc1ab556.chunk.css",
+    "static/js/main.2b73493d.chunk.js"
   ]
 }

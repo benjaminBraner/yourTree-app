@@ -6,6 +6,6 @@ export const PrivateRoute = ({children}) => {
 
      const {uid} = useSelector(state => state.auth)
      return (
-          uid ? children : <Navigate to={'/public'} />
+          uid ? children : <Navigate to={'/plants-app'} />
      )
 }

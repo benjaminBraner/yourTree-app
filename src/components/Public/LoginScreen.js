@@ -18,7 +18,6 @@ export const LoginScreen = () => {
      const handleLogin = (e) => {
           e.preventDefault();
           dispatch( startLoginEmailPassword( email, password ) )
-          console.log('btn apretado');
      }
 
 
@@ -76,18 +75,15 @@ export const LoginScreen = () => {
                               </div>
 
                                    
-                              <a
-                                   href='/login'
-                                   className='form__item passwrd-forgot'
-                              >
+                              <p className='form__item passwrd-forgot' onClick={ () =>alert("We are working on this functionality") }>
                                    Forgot your password?
-                              </a>
+                              </p>
 
                          </form>
 
                     </div>
 
-                    <p>don't have an account? <Link className='signup__form' to='/public/signup'>Sign Up</Link></p>
+                    <p className='dont-have-acc-btn'>don't have an account? <Link className='signup__form' to='/plants-app/signup'>Sign Up</Link></p>
 
                </div>
           </div>

@@ -20,7 +20,7 @@ export const PlantCard = ({ id, name, price }) => {
                     <div className='features'>
                          <h2>{name}</h2>
                          <p>{price}</p>
-                         <Link to={`/public/products/plant/${id}`}>
+                         <Link to={`/plants-app/products/plant/${id}`}>
                               <button>
                                    More..
                               </button>

@@ -130,12 +130,12 @@
      margin-top: 8px;
      margin-bottom: 10px;
      padding-bottom: 10px;
-     /* padding-top: 0; */
+     cursor: pointer;
      text-decoration: none;
      color: black;
 }
 
-.LoginScreen .form__container p {
+.LoginScreen .form__container .dont-have-acc-btn {
      display: flex;
      justify-content: center;
      margin-top: 10px;

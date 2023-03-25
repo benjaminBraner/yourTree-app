@@ -46,7 +46,7 @@ export const AppRouter = () => {
             {/*Public */}
 
 
-            <Route path="public/*" element={
+            <Route path="/plants-app/*" element={
                <PublicRoute>
                   <PublicRouter />
                </PublicRoute>
@@ -54,7 +54,7 @@ export const AppRouter = () => {
 
 
             {/*Private */}
-            <Route path="/*" element={
+            <Route path="/plants-app/acc/*" element={
                <PrivateRoute>
                   <YourTreeScreen />
                </PrivateRoute>
