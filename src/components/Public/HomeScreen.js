@@ -22,7 +22,7 @@ export const HomeScreen = () => {
                               <h1>FUTURE</h1>
                               <h2>OF PLANTS SALES</h2>
                               <p>See what makes us different</p>
-                              <button className='main__btn' onClick={ () => navigate( '/plants-app/signup' ) }>
+                              <button className='main__btn' onClick={ () => navigate( '/signup' ) }>
                                    <p>Get Started</p>
                               </button>
 

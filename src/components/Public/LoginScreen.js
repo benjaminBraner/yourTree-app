@@ -83,7 +83,7 @@ export const LoginScreen = () => {
 
                     </div>
 
-                    <p className='dont-have-acc-btn'>don't have an account? <Link className='signup__form' to='/plants-app/signup'>Sign Up</Link></p>
+                    <p className='dont-have-acc-btn'>don't have an account? <Link className='signup__form' to='/signup'>Sign Up</Link></p>
 
                </div>
           </div>

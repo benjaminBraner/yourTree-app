@@ -117,7 +117,7 @@ export const SignUpScreen = () => {
 
                     </div>
 
-                    <p className='have-acc'>Already have an account?<Link to='/plants-app/login'>Login</Link></p>
+                    <p className='have-acc'>Already have an account?<Link to='/login'>Login</Link></p>
 
                </div>
           </div>
