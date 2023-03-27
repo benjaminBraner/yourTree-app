@@ -16,7 +16,7 @@ export const PlantScreen = ({isPublic}) => {
 
      const imagePath = plantImages(`./${plantId}.jpg`).default;
 
-     const clickBtn = () => (isPublic) && navigate('/plants-app/signup');
+     const clickBtn = () => (isPublic) && navigate('/signup');
 
      return (
           <div className='PlantScreen'>
